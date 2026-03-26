@@ -1,0 +1,20 @@
+name: my_flutter_app
+description: A Flutter application.
+version: 1.0.0
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^13.0.1 # For navigation
+  provider: ^6.1.1 # For state management
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1 # Recommended for better code quality
+
+flutter:
+  uses-material-design: true
